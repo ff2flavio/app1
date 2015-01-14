@@ -269,7 +269,7 @@ fieldset {
 	padding: 16px 10px;
 }
 fieldset legend {
-	color: #e32;
+        color: #6666ff;
 	font-size: 160%;
 	font-weight: bold;
 }
@@ -491,14 +491,20 @@ p.error em {
 
 /**  Actions  **/
 .actions ul {
-	margin: 0;
+	margin:  0;
 	padding: 0;
+}
+.actions h3 {
+	color: #6666ff;
+        margin: 30px 20px;
+	padding: 10px ;
+         
 }
 .actions li {
 	margin:0 0 0.5em 0;
 	list-style-type: none;
 	white-space: nowrap;
-	padding: 0;
+	padding:30px 10px 20px 0px ;
 }
 .actions ul li a {
 	font-weight: normal;
